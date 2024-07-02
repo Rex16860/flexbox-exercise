@@ -106,6 +106,29 @@ body {
     transform: scale(1.12);
 }
 
+/* fifth exercise */
+.fifth-container {
+    width: 500px;
+    height: 500px;
+    border: 3px solid black;
+    margin: 50px auto;
+    display: flex;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: darkorchid;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+
+.box span {
+    margin: auto;
+}
+
 @media screen and (min-width: 600px) {
     .second-container {
         display: flex;
